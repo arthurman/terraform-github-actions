@@ -13,7 +13,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "new_bucket" {
-  bucket = "pcm_demo-github-action-tf"
+  bucket = "pcm-demo-github-action-tf"
 
   object_lock_enabled = false
 
