@@ -12,12 +12,12 @@ provider "aws" {
   region = "us-east-2" # define region as per your account
 }
 
-resource "aws_s3_bucket" "new_bucket" {
-  bucket = "pcm-demo-github-action-tf"
+# resource "aws_s3_bucket" "new_bucket" {
+#   bucket = "pcm-demo-github-action-tf"
 
-  object_lock_enabled = false
+#   object_lock_enabled = false
 
-  tags = {
-    Environment = "Prod"
-  }
-}
+#   tags = {
+#     Environment = "Prod"
+#   }
+# }
